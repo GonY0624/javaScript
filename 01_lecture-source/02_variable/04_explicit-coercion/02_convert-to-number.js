@@ -12,4 +12,5 @@ console.log(parseInt('10.01'));
 //3. + 단항 산술
 
 //4. * 산술연산자 이용
-console.log('10' + 1); //10
+console.log('10' * 1); //10
+console.log();
