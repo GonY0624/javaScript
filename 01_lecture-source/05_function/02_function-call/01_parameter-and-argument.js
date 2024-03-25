@@ -46,5 +46,6 @@ function hi(name = '돼지똥'){
 // result = hi();
 // result = hi('홍길동', '유관순');
 // result = hi(1);
-result = hi('');
+// result = hi('');
+
 console.log(result);

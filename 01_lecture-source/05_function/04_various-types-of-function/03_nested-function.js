@@ -19,4 +19,5 @@ function outer(){
 
 }
 
-outer();
+inner();
+// outer();

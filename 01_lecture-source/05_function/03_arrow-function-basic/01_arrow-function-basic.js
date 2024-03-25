@@ -28,3 +28,14 @@ console.log(message());
 message = () => "Arrow Function is Simple!!!!!";
 
 console.log(message());
+
+// 매개변수가 있는 경우
+message = (val1, val2) => "Arrow" + val1 + val2;
+
+console.log(message('Function', '!!!!!!!!!'));
+
+// 매개변수가 한개면 소괄호 생략 가능
+// 매개변수가 없거나, 여러 개일 경우 생략은 불가능하다. 
+message = val => "Arrow" + val;
+
+console.log(message("Function is GOOD!!!"));

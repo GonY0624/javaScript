@@ -20,4 +20,4 @@ var calc = function add(a,b){
 
 // 단, 함수 호출은 식별자로 이루어진다. -> calc
 // console.log(add(10,20));
-console.log(calc(10,20));
+console.log(calc(10,'20'));

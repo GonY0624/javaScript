@@ -16,4 +16,5 @@ console.log(student.test === undefined);
 console.log('================================================');
 console.log('name' in student);     // true - 존재한다. 
 console.log('height' in student);   // false - 존재하지 않는다. 
-console.log('test' in student);
+console.log('test' in student);     // true - 존재한다.
+

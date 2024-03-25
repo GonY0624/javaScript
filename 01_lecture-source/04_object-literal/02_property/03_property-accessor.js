@@ -27,4 +27,6 @@ var obj = {
 // console.log(obj["dash-key"]);
 console.log(obj['dash-key']);
 
-console.log(obj.'0');
+// console.log(obj.'0');
+console.log(obj['0']); 
+console.log(obj[0]);   // 프로퍼티 키가 숫자로 이루어진 문자열인 경우 따옴표 생략 가능

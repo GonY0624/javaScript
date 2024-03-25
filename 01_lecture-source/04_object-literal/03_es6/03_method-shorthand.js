@@ -13,7 +13,7 @@ dog.eat('고구마');
 // ES6 에서는 메서드를 정의할 떄 funtion 키워드를 생략한 축약 표현을 사용할 수 있다. 
 var dog2 = {
     name : '두부',
-    eat : function(food){
+    eat(food){
         console.log(`${this.name}은(는) ${food} 를 맛나게 먹어요`);
     }
 };
