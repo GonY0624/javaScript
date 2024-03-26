@@ -39,4 +39,5 @@ for(let i = 0; i <arr.length; i++){
     console.log(arr[i]);
 }
 
+// 배열이라고 하는 별도의 타입은 존재하지 않으며, 배열은 객체 타입이다. 
 console.log(typeof arr);

@@ -22,4 +22,14 @@ student.login();
 
 for(let prop in student){
     console.log(prop);
+
+    // hasOwnProperty : 본인이 가지고 있는 프로퍼티
+    // key 에 대응하는 프로퍼티가 상속받은 프로퍼티가 아니고 객체에 직접 구현된 프로퍼티 일 경우에만 true 를 반환
+    let isOwn = student.hasOwnProperty(prop);
+
+    if(isOwn) {
+        console.log(`객체 자신의 프로퍼티 : ${prop}`);
+    } else{
+        console.log(`상속 받은 프로퍼티 : ${prop}`);
+    }
 }

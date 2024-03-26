@@ -26,3 +26,8 @@ console.log(Object.getOwnPropertyDescriptors(arr));
 // 자바스크립트는 배열의 요소가 연속적으로 위치하지 않고 일부가 비어있는 희소 배열을 
 // 문법적으로 허용한다. 
 const arr2 = [ ,2, ,4];
+console.log(arr2);
+console.log(arr2.length);
+
+// 일반 배열 length 요소의 갯수 같았지만, 희소 배열은 length 와 배열 요소의 갯수가 
+// 일치 하지 않는다는 것을 주의하자. 
