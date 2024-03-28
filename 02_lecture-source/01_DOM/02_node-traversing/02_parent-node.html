@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>02_parent node</title>
+    <title>02. parent-node</title>
 </head>
+
 <body>
     <h1>02. 부모 노드 탐색</h1>
     <pre>
@@ -13,12 +15,12 @@
     </pre>
 
     <script>
-        console.log("======================HTML======================");
+        console.log("======= HTML =======");
         console.log(document.documentElement);
-        console.log("========================HEAD========================")
+        console.log("======= HEAD =======");
         console.log(document.head.parentNode);
-        console.log("=====================BODY===========================")
-        console.log(document.body.parentNode);
+        console.log("======= BODY =======");
+        console.log(document.body);
     </script>
 
     <ul id="lists">
@@ -29,7 +31,9 @@
 
     <script>
         const $coke = document.querySelector('.coke');
+        console.log($coke);
         console.log($coke.parentNode);
     </script>
 </body>
+
 </html>
